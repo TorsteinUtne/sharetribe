@@ -101,5 +101,9 @@
   },
   "browser": {
     "fs": false
+  },
+  "engines": {
+    "node": "6.1",
+    "npm": "3.10.7"
   }
 }
