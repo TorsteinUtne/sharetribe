@@ -2,8 +2,8 @@ require 'yaml'
 require 'ostruct'
 
 module ConfigLoader
-  DEFAULT_CONFIGS = "/config/config.defaults.yml"
-  USER_CONFIGS = "/config/config.yml"
+  DEFAULT_CONFIGS = "config/config.defaults.yml"
+  USER_CONFIGS = "config/config.yml"
 
   module_function
 
