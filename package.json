@@ -2,8 +2,12 @@
   "repository": "sharetribe/sharetribe",
   "license": "MIT",
   "engines": {
-    ""node": "6.1",
+     "node": "6.1",
      "npm": "3.10.7"
+  },
+  "scripts": {
+    "postinstall": "cd client && npm install",
+    "clean": "rm -f app/assets/webpack/*"
   },
   "cacheDirectories": ["node_modules", "client/node_modules"]
 }
